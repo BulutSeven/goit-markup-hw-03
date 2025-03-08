@@ -41,8 +41,29 @@ ol,
 ul {
   list-style-type: none;
 }
+
+.section {
+  padding: 120px 0;
+  width: 100%;
+}
+.container {
+  width: 1158px;
+  margin: 0 auto;
+  flex-direction: column;
+}
 /*header*/
 #header {
+  border-bottom: 1px solid #e7e9fc;
+}
+.header-container {
+  display: flex;
+  padding: 0 15px;
+  justify-content: space-between;
+  flex-direction: row;
+}
+.menu-nav {
+  display: flex;
+  align-items: center;
 }
 .header-logo {
   font-family: "Raleway", sans-serif;
@@ -53,6 +74,7 @@ ul {
   text-transform: uppercase;
   text-decoration: none;
   color: #4d5ae5;
+  margin-right: 76px;
 }
 .header_logo_second {
   color: #2e2f42;
